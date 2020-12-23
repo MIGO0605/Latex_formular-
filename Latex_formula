@@ -52,3 +52,10 @@ Add your computational results here. See Table~\ref{tab:mascots} for how to incl
     \caption{UW mascots as described in \cite{washington_huskies}.}
     \label{tab:mascots}
 \end{table}
+
+Add your algorithm implementation and development here. See Algorithm~\ref{alg:example} for how to include an algorithm in your document. This is how to make an \textit{ordered} list:
+\begin{enumerate}
+    \item Fluffy swallowed a marble.
+    \item I took Fluffy to the vet.
+    \item They took an ultrasound of Fluffy's intestines.
+\end{enumerate}
