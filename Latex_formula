@@ -5,3 +5,50 @@
     \caption{Here is a picture of Dubs \cite{webeck_2018}. Dubs did not swallow a marble.}
     \label{fig:dubs}
 \end{figure}
+
+\begin{algorithm}
+\begin{algorithmic}
+    \STATE{Import data from \texttt{Testdata.mat}}
+    \FOR{$j = 1:20$}
+        \STATE{Extract measurement $j$ from \texttt{Undata}}
+        \STATE{Do something useful}
+    \ENDFOR
+    \IF{$i\geq 5$} 
+        \STATE{$i\gets i-1$}
+    \ELSE
+        \IF{$i\leq 3$}
+            \STATE{$i\gets i+2$}
+        \ENDIF
+    \ENDIF 
+\end{algorithmic}
+\caption{Example Algorithm}
+\label{alg:example}
+\end{algorithm}
+
+% Computational Results
+\section{Computational Results}
+Add your computational results here. See Table~\ref{tab:mascots} for how to include a table in your document. See Figure~\ref{fig:dubs} for how to include figures in your document.
+
+\begin{table}
+    \centering
+    \begin{tabular}{rll}
+    & Name & Years \\
+    \hline
+    1 & Frosty & 1922-1930  \\
+    2 & Frosty II & 1930-1936 \\
+    3 & Wasky & 1946 \\
+    4 & Wasky II & 1947 \\
+    5 & Ski & 1954 \\
+    6 & Denali & 1958 \\
+    7 & King Chinook & 1959-1968\\
+    8 & Regent Denali & 1969 \\
+    9 & Sundodger Denali & 1981-1992 \\
+    10 & King Redoubt & 1992-1998 \\
+    11 & Prince Redoubt & 1998 \\
+    12 & Spirit & 1999-2008 \\
+    13 & Dubs I & 2009-2018 \\
+    14 & Dubs II & 2018-Present
+    \end{tabular}
+    \caption{UW mascots as described in \cite{washington_huskies}.}
+    \label{tab:mascots}
+\end{table}
